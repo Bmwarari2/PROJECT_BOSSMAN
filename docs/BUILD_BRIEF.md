@@ -26,7 +26,7 @@ wait for the owner to start the build.
 
 As in `CLAUDE.md`: marketing and contact law enforced before every send (consent service, rule packs, instant
 suppression, authenticated sending, recording consent); privacy and data residency (home regions UK europe-west2, EU
-europe-west3, US us-east5; mail sent from the home region); security (forced RLS plus record-level sharing on every
+europe-west3, US us-central1; mail sent from the home region); security (forced RLS plus record-level sharing on every
 read path, MFA, audit, held contact exports, ASVS L2, no keys); quality (WCAG 2.2 AA including portal and widgets,
 i18n, rules as sourced and effective-dated data); the suite design system with CRM's accent; optional, draft-only AI.
 

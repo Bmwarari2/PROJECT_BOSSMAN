@@ -48,7 +48,7 @@ Finance and partners), and native mobile apps before the suite's native phase (s
 ### Privacy and data residency
 - Thapsus is the processor; customers are controllers. UK GDPR and the Data Protection Act 2018 (as amended by the
   Data (Use and Access) Act 2025), EU GDPR, US state privacy laws.
-- Home regions: **UK = europe-west2**, **EU = europe-west3** (backups only in europe-west1), **US = us-east5**
+- Home regions: **UK = europe-west2**, **EU = europe-west3** (backups only in europe-west1), **US = us-central1**
   (backups only in us-west1). All personal data, files, backups, logs, search indexes, caches, queues and emails
   stay there; enforced by tests for every region pair. No multi-region locations, no Cloud CDN for authenticated
   traffic, no Cloud Trace, Error Reporting or `_Default` log bucket.
