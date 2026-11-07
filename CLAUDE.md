@@ -23,8 +23,9 @@ Until then, only planning documents change. Read first: `docs/PLAN.md`, `docs/FE
   recurring cost beyond the estimate in `docs/COSTS.md`.
 - Never tick a PLAN item whose acceptance criteria are not proved by a test or a check in `pnpm verify`, or by a
   HUMAN_TODO entry for human-only items. Report failures and skipped steps honestly.
-- Suite documents in `docs/suite/` are identical in PROJECT_MULLAH, PROJECT_BOSSMAN and PROJECT_KASONGO. Change
-  all three copies in one change.
+- Suite documents in `docs/suite/` are a read-only mirror of `PROJECT_ATLAS/docs/suite/`, the canonical copy (the
+  suite's platform repository). Change them in PROJECT_ATLAS, then copy them here and to the other two mirrors
+  (PROJECT_MULLAH, PROJECT_BOSSMAN, PROJECT_KASONGO) in the same change.
 
 ## Scope guardrails
 

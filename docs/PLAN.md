@@ -233,7 +233,7 @@ portal and widgets; restore and zone-failure drills; staging in each region befo
 
 | Needs | From | By phase |
 | --- | --- | --- |
-| Platform kit (core, db, auth, Studio, shell, mail service) | `thapsus-platform` | 0 |
+| Platform kit (core, db, auth, Studio, shell, mail service) | `PROJECT_ATLAS` | 0 |
 | Users, teams, availability, leavers | Thapsus-HR partner scopes (`PROJECT_KAREN/docs/SUITE_INTEGRATION_PLAN.md` S.5) | 2 (mock), 13 |
 | Tax codes, rates, invoices, credit status | Finance | 2 (mock), 13 |
 | Catalogue, prices, availability, orders | ERP | 2 (local price books), 13 |
